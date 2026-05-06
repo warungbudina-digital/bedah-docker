@@ -1,0 +1,4 @@
+FROM docker.io/wagoodman/dive:latest
+
+COPY .dive-ci /root/.dive-ci
+COPY .dive.yaml /root/.dive.yaml

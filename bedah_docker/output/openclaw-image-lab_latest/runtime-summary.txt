@@ -1,0 +1,10 @@
+image=openclaw-image-lab:latest
+repoTags=["openclaw-image-lab:latest"]
+created=2026-05-05T17:37:18.737750712Z
+architecture=amd64
+os=linux
+size=56444800
+workingDir=/work
+entrypoint=null
+cmd=["sh"]
+env=["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"]

@@ -1,0 +1,10 @@
+services:
+  image-lab:
+    build:
+      context: .
+    container_name: image-lab
+    working_dir: /work
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    stdin_open: true
+    tty: true

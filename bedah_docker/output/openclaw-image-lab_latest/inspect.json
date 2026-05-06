@@ -1,0 +1,48 @@
+[
+    {
+        "Architecture": "amd64",
+        "Config": {
+            "Cmd": [
+                "sh"
+            ],
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Labels": {
+                "com.docker.compose.image.builder": "classic"
+            },
+            "WorkingDir": "/work"
+        },
+        "Created": "2026-05-05T17:37:18.737750712Z",
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/979507a2abf587d3d13491e90e10285588568a652c8f6c31a30272148e1a7f16/diff:/var/lib/docker/overlay2/febc7ee1a8c75dc6dd6b99c6f19fe00641fae3a5c840d434c4ed1e3e4b1aaab8/diff:/var/lib/docker/overlay2/39f95ea2b4a3c5e951c5d0f1107f7e3fee9a75c989db382dfe20ed39f7ec1bda/diff:/var/lib/docker/overlay2/c62e5aae8ecbe8595f43b25a090bd05e46904f6dd504f931f4c859911ea002f4/diff",
+                "MergedDir": "/var/lib/docker/overlay2/e80c8eed0f7f957405c42773fdf3e728001df638f8fe44da5825ab384bf9a0bd/merged",
+                "UpperDir": "/var/lib/docker/overlay2/e80c8eed0f7f957405c42773fdf3e728001df638f8fe44da5825ab384bf9a0bd/diff",
+                "WorkDir": "/var/lib/docker/overlay2/e80c8eed0f7f957405c42773fdf3e728001df638f8fe44da5825ab384bf9a0bd/work"
+            },
+            "Name": "overlay2"
+        },
+        "Id": "sha256:d956b57abd87f7155931cb2753893c2d318893f44556846bacb588c2d169adad",
+        "Metadata": {
+            "LastTagTime": "2026-05-05T17:37:18.802583539Z"
+        },
+        "Os": "linux",
+        "Parent": "sha256:b9764f4d041be865d58e9f01f7c768d682d0b09e5ff0ae5622777781948be118",
+        "RepoDigests": [],
+        "RepoTags": [
+            "openclaw-image-lab:latest"
+        ],
+        "RootFS": {
+            "Layers": [
+                "sha256:0854555d70acaa318b38ee50bc667cb51ff6bf0757624624c7ff3b6fe17459a0",
+                "sha256:7348cdd5d2ee8a85ba47d88b0b591b7c8a35b9fdd2d3114143ef7a79cd79e15b",
+                "sha256:c64ae8487ed05ba9720e150cb28ff5866a8e3d91abe36b52307ccef09d0140a9",
+                "sha256:3658006d341777514874857eac988803d532b1ef7e713ff2d0f4367741061834",
+                "sha256:f770358ff8ba6ddf7d88f027ab1c456e4d14c7b602194bf7b3bea9112a136161"
+            ],
+            "Type": "layers"
+        },
+        "Size": 56444800
+    }
+]

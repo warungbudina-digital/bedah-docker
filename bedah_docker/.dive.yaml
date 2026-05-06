@@ -1,0 +1,11 @@
+container-engine: docker
+ignore-errors: false
+filetree:
+  collapse-dir: false
+  pane-width: 0.5
+  show-attributes: true
+layer:
+  show-aggregated-changes: false
+diff:
+  hide:
+    - removed
